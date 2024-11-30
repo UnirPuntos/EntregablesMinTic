@@ -1,0 +1,132 @@
+.tituloprincipal {
+  text-align: center;
+  background-color: pink;
+  color: black;
+}
+
+.img1 {
+  width: 18rem;
+  height: auto;
+  border-radius: 10rem;
+  box-shadow: 5px 5px 15px blue;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.texto-presentacion {
+  font-size: 2rem;
+}
+
+.enlaces {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.listas {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.listas h3 {
+  font-size: 2rem;
+  color: blue;
+}
+
+.organizada {
+  border: 0.2rem solid blue;
+  padding: 10px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+}
+.desorganizada {
+  border: 0.2rem solid blue;
+  padding: 10px;
+  margin: 20px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+}
+
+/*estilos de la tabla*/
+
+table,th,td{
+    border: 0.1rem solid;
+    border-collapse: collapse;
+}
+
+table{
+    width: 50%;
+    height: 2rem;
+}
+td{
+    height: 2rem;
+    text-align: center;
+}
+tr:hover {background-color: coral;}
+
+th{
+    background-color: rgb(120, 188, 252);
+}
+
+.tabla{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para el formulario */
+form {
+    max-width: 600px;
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+  }
+  
+  label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-size: 1rem;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 1rem; 
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db; 
+    color: white; 
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer; 
+  }
+  
+  button:hover {
+    background-color: #2980b9; 
+  }
+
+  .form{
+    font-size: 2rem;
+    color: #3498db;
+    text-align: center;
+    padding-top: 2rem;
+  }
